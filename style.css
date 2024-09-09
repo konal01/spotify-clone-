@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+nav{
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    justify-content: space-between;
+    transform: scale(0.959);
+}
+
+.li1 {
+    margin-right: 10px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.li2 {
+    
+    background-color: rgb(35, 35, 35);
+    padding: 10px 200px 10px 0px;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+    opacity: 80%;
+    
+}
+.group{
+    margin-left: auto;
+   
+}
+.li2:hover {
+    border: 1px solid white;
+    background-color: rgb(80, 80, 80);
+    opacity:100%;
+}
+
+#search {
+    
+    background-color: transparent;
+    padding-right: 10px;
+    padding-left: 20px;
+    align-self: center;
+    justify-content: center;
+    transform: scale(1.2);
+   
+}
+#search:hover{
+    opacity: 100%;
+
+
+}
+
+.li4 {
+    margin: 10px;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+
+.li4:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+#dn {
+    padding-right: 2px;
+    transform: scale(1.1);
+}
+
+
+
+#logo {
+    height: 50px;
+    
+    margin-left: 0px;
+    margin-top:5px;
+    width: 50px;
+    filter: saturate(0%) brightness(150%);
+    transform: scale(0.7);
+}
+
+#ep {
+    color: black;
+    font-size: small;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    max-width: max-content;    
+    margin-left: auto;
+    margin-right: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
+    transform: scale(1.1);
+}
+
+#ep:hover {
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+
+#hm {
+    background-color: rgb(35, 35, 35);
+    padding: 10px;
+    margin-left: 4px;
+    margin-right: 10px;
+    transform: scale(1.1);
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: border 0.4s ease, background-color 0.4s ease;
+}
+#hm:hover {
+    
+    transform: scale(1.1);
+   
+    background-color: rgb(80, 80, 80);
+}
+
+#bell{
+    margin: 20px;
+    transform: scale(1.2);
+    transition: all 0.1s ease;
+}
+
+#bell:hover{
+    transform: scale(1.4);
+}
+#usericon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.15);
+    transform: scale(1.4);
+}
+
+.dropdown {
+    
+    cursor: pointer;
+    
+
+}
+
+.content{
+    border-radius: 50%;
+    background-color: aqua;
+}
+.dropdown li {
+    display: block;
+    padding:10px 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    
+   
+}
+
+.dropdown .content{
+    background-color: transparent;
+    display: none;
+    position: absolute;
+    background-color:none;
+    min-width: 100px;
+}
+
+.dropdown:hover .content{
+    display: block;
+   
+    border-radius: 10px;
+}
+.sidebar{
+    position: relative;
+            
+    padding: 10px;
+    margin-left:10px;
+    height: 100vh;
+    width: 450px;
+    background-color: rgb(16, 16, 16);
+    border-radius: 5px;
+ 
+  
+
+}
+
+.lib{
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(165, 165, 165);
+    font-size: large;
+    font-weight: bold;
+}
+#icl{
+    
+    opacity: 60%;
+    background: transparent;
+    transition: all 0.3s ease;
+
+}
+#icl:hover{
+    opacity: 100%;
+}
+
+#libicon{
+   margin-bottom: 10px;
+   padding-right: 10px;
+    
+    background: transparent;
+    transform: scale(1.5);
+}
+
+#plus{
+    
+    position:absolute;
+    right:0;
+    margin-right: 60px;
+    margin-top:4px;
+     opacity: 50%;
+     background: transparent;
+     transform: scale(1.5);
+     transition: all 0.2s ease;
+     
+}
+#plus:hover{
+    opacity: 100%;
+    
+
+}
+#arrow{
+    position:absolute;
+    right:0;
+    margin-right: 20px;
+    margin-top:4px;
+    font-weight: 100;
+   ;
+     opacity: 50%;
+     background: transparent;
+     transform: scale(1.5);
+     transition: all 0.2s ease;
+}
+#arrow:hover{
+    opacity: 100%;
+    background: transparent;
+    transform: scale(1.5);
+
+}
+#whole{
+    display: flex;
+    width:100%;
+}
+#maincontent{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(29, 82, 82)10% , rgb(16, 16, 16) 90%);
+    padding: 20px;
+    flex: auto;
+    overflow: auto;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+#playlistdiv{
+    display: flex;
+    justify-content: first baseline;
+    background-color: transparent;
+    flex-direction: column;
+}
+
+.playlist{
+    height: 60px;
+    background-color: transparent;
+    margin: 5px;
+    display:flex;
+    padding:10px;
+    
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.playlist:hover{
+    background-color: rgb(40, 40, 40);
+
+}
+
+#pin{
+    background: transparent;
+    transform: rotate(35deg);
+    opacity:60%;
+}
+#likedsongicon{
+    height: 40px;
+    width:40px;
+    background-color: paleturquoise;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#likedsongicon2{
+    height: 40px;
+    width:40px;
+
+    background-color: palevioletred;
+    border-radius: 5px;
+    
+    margin-right: 10px;
+}
+
+#likedsongstxt{
+    background-color: transparent;
+
+}
+#playlist5songs{
+     background-color: transparent;
+     font-weight: bold;
+     color:grey;
+     font-size: small;
+}
+
+#playlist1{
+    margin-top: 40px;
+}
+
+#lkicon{
+    height: 40px;
+    border-radius: 4px;
+}
+
+.allmusicpodcast {
+    display: flex;         
+    gap: 5px;   
+    height:30px;
+    align-items: center;
+    background-color: transparent;
+              
+}
+
+.ct {
+    height:30px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    background-color:  rgba(169, 169, 169, 0.3);
+    
+                 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 20px;    
+    transform: scale(0.9);   
+    transition:all 0.4s;
+
+}
+.ct:hover{
+    background-color:  rgba(169, 169, 169, 0.7);
+
+}
+.madeforyou{
+    margin: 20px;
+    margin-left: 0px;
+    background-color: transparent;
+}
+.uptext{
+    font-size: large;
+    font-weight: bold;
+    transform:scale(1.2);
+    margin:10px;
+    margin-left: 0px;
+    padding:10px;
+    background-color: transparent;
+}
+.fu{
+    margin-top: 30px;
+    background-color: transparent;
+}
